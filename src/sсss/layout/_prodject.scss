@@ -1,0 +1,26 @@
+.prodject {
+}
+
+.prodject-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 60px;
+}
+
+.prodject-item {
+  display: block;
+}
+
+.prodject-img {
+  display: block;
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+
+.prodject-caption {
+  display: flex;
+  justify-content: center;
+}

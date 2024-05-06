@@ -1,5 +1,7 @@
-@import "./utils/vars";
-
-h1 {
-  color: var(--text);
-}
+@import './utils/vars';
+@import './base/reset';
+@import './base/conteiner';
+@import './base/section';
+@import './components/logo';
+@import './layout/header';
+@import './layout/prodject';

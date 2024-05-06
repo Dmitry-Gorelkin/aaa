@@ -1,3 +1,2 @@
-import "./src/sсss/main.scss";
-
-console.log("hello world");
+import './src/sсss/main.scss';
+import './src/js/index';

@@ -4,22 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AAA</title>
+    <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico" />
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>test</p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, iure qui quibusdam
-      architecto, ipsa, eos nihil facilis optio deleniti adipisci magni corrupti error officia nisi
-      ex? Quod nostrum quidem esse.
-    </p>
-    <p>test2</p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, iure qui quibusdam
-      architecto, ipsa, eos nihil facilis optio deleniti adipisci magni corrupti error officia nisi
-      ex? Quod nostrum quidem esse.
-    </p>
-    <a href="./contacts">CONTSCS</a>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="conteiner section">
+        <div class="header-logo-box">
+          <a class="header-logo" href="./index.html">
+            <svg class="logo">
+              <use class="logo-icon" href="./src/img/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="header-menu-open-box">
+          <svg class="header-menu-open-icon">
+            <use class="" href="./src/img/icons.svg#icon-menu"></use>
+          </svg>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- PROJECTS -->
+      <section class="prodject">
+        <div class="conteiner section">
+          <ul class="prodject-list">
+            <li class="prodject-item">
+              <img
+                class="prodject-img"
+                src="./src/img/list_projects/1.jpg"
+                alt="дом"
+                loading="lazy"
+              />
+              <p class="prodject-caption">2 - этажный дом | 170 м2 | г. Краснодар</p>
+            </li>
+            <li class="prodject-item">
+              <img
+                class="prodject-img"
+                src="./src/img/list_projects/2.jpg"
+                alt="дом"
+                loading="lazy"
+              />
+              <p class="prodject-caption">1 - этажный дом | 100 м2 | г. Краснодар</p>
+            </li>
+            <li class="prodject-item">
+              <img
+                class="prodject-img"
+                src="./src/img/list_projects/3.jpg"
+                alt="дом"
+                loading="lazy"
+              />
+              <p class="prodject-caption">2 - этажный дом | 170 м2 | г. Краснодар</p>
+            </li>
+            <li class="prodject-item">
+              <img
+                class="prodject-img"
+                src="./src/img/list_projects/4.jpg"
+                alt="дом"
+                loading="lazy"
+              />
+              <p class="prodject-caption">1 - этажный дом | 100 м2 | г. Краснодар</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

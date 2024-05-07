@@ -11,5 +11,8 @@
   "devDependencies": {
     "sass": "^1.75.0",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "vanilla-back-to-top": "^7.2.1"
   }
 }

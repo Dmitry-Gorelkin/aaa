@@ -1,1 +1,1 @@
-console.log('hello world');
+import './base/back-to-top';

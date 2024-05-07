@@ -12,7 +12,9 @@
 .prodject-item {
   display: block;
 
-  margin-bottom: 8vw;
+  &:not(:last-child) {
+    margin-bottom: 8vw;
+  }
 }
 
 .prodject-img {

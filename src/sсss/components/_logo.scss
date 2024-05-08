@@ -1,0 +1,18 @@
+/* Логотип */
+.logo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo-icon {
+  display: block;
+
+  height: 18vw;
+
+  fill: var(--icon);
+}

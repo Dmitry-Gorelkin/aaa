@@ -1,46 +1,110 @@
 .header {
-}
-
-.header-logo-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-logo-link {
-  display: inline-block;
-}
-
-.header-logo {
   display: block;
 
-  height: 18vw;
-
-  fill: var(--icon);
+  position: relative;
 }
 
-.header-logo-icon {
-}
+/* Меню мобильная версия */
 
-.header-menu-open-box {
-  display: block;
-  position: absolute;
+// .menu-icon {
+//   &:hover {
+//     animation: animOpemMenu 300ms linear 1;
+//   }
+// }
 
-  top: 8vw;
-  right: 5vw;
-}
+// @keyframes animOpemMenu {
+//   0% {
+//     transform: rotate(0deg);
+//   }
 
-.header-menu-open-icon {
-  display: block;
+//   100% {
+//     transform: rotate(180deg);
+//   }
+// }
 
-  width: 5.75vw;
-  height: 5.75vw;
+//Кнопка закрытия меню
 
-  cursor: pointer;
+// .header-menu-close-box {
+//   display: block;
+//   position: absolute;
 
-  fill: var(--icon);
+//   top: 8vw;
+//   right: 5vw;
+// }
 
-  &:hover {
-    fill: var(--hover);
-  }
-}
+// .header-menu-close-icon {
+//   display: block;
+
+//   width: 5.75vw;
+//   height: 5.75vw;
+
+//   cursor: pointer;
+
+//   border: 1px solid var(--icon);
+//   border-radius: 50%;
+
+//   fill: var(--icon);
+// }
+
+// Собственно само меню
+// .header-menu {
+//   display: block;
+//   position: relative;
+
+//   top: 0px;
+//   right: 0px;
+// }
+
+// .header-menu-box {
+//   display: block;
+
+//   position: absolute;
+
+//   top: 0px;
+//   right: 0px;
+
+//   width: 100vw;
+//   height: 100vh;
+
+//   z-index: 10;
+
+//   background-color: var(--background);
+
+//   &.open {
+//     animation: animateOpenMenuBox 300ms ease-in-out forwards;
+//   }
+
+//   &.close {
+//     animation: animateCloseMenuBox 300ms ease-in-out forwards;
+//   }
+// }
+
+// @keyframes animateOpenMenuBox {
+//   0% {
+//     width: 0;
+//   }
+
+//   100% {
+//     width: 100%;
+//   }
+// }
+
+// @keyframes animateCloseMenuBox {
+//   0% {
+//     width: 100%;
+//   }
+
+//   100% {
+//     width: 0;
+//   }
+// }
+
+// .is-hidden {
+//   display: none;
+//   opacity: 0;
+//   visibility: hidden;
+//   pointer-events: none;
+// }
+
+// .header-menu-nav {
+// }

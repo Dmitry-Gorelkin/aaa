@@ -1,6 +1,6 @@
 #back-to-top {
   &:hover,
   :focus {
-    box-shadow: 1px 1px 10px 3px var(--hover);
+    background-color: var(--hover);
   }
 }

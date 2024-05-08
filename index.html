@@ -10,17 +10,67 @@
     <!-- HEADER -->
     <header class="header">
       <div class="conteiner section">
-        <div class="header-logo-box">
-          <a class="header-logo-link" href="./index.html">
-            <svg class="header-logo">
-              <use class="header-logo-icon" href="./src/img/icons.svg#icon-logo"></use>
+        <!-- LOGO -->
+        <div class="logo-box">
+          <a class="logo-link" href="./index.html">
+            <svg class="logo-icon">
+              <use href="./src/img/icons.svg#icon-logo"></use>
             </svg>
           </a>
         </div>
-        <div class="header-menu-open-box">
+        <!-- OPEM MEMU -->
+        <div class="header-menu-open-box" data-menu-open-js>
           <svg class="header-menu-open-icon">
-            <use class="" href="./src/img/icons.svg#icon-menu"></use>
+            <use href="./src/img/icons.svg#icon-menu-open"></use>
           </svg>
+        </div>
+      </div>
+
+      <!-- MENU NAV MOB -->
+
+      <div class="header-menu is-hidden" data-menu-js>
+        <div class="header-menu-box">
+          <!-- COMPANY LOGO -->
+          <div class="logo-box">
+            <a class="logo-link" href="./index.html">
+              <svg class="logo-icon">
+                <use href="./src/img/icons.svg#icon-company-logo"></use>
+              </svg>
+            </a>
+          </div>
+          <!-- NAVIGATION -->
+          <nav>
+            <ul>
+              <li><a href="#">О нас</a></li>
+              <li><a href="/index.html">Все проекты</a></li>
+              <li><a href="">Реализованые проекты</a></li>
+              <li><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+          <!-- SOCIAL -->
+          <ul class="header-menu-social-list">
+            <li class="header-menu-social-item">
+              <a class="header-menu-social-link" href="">
+                <svg class="header-menu-social-icon">
+                  <use href="./src/img/icons.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-menu-social-item">
+              <a class="header-menu-social-link" href="">
+                <svg class="header-menu-social-icon">
+                  <use href="./src/img/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-menu-social-item">
+              <a class="header-menu-social-link" href="">
+                <svg class="header-menu-social-icon">
+                  <use href="./src/img/icons.svg#icon-whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>

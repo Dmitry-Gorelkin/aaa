@@ -1,4 +1,24 @@
-// Кнопка открытия меню
+/* Меню Навигации Мобильная версия */
+
+.header-menu {
+  display: block;
+
+  padding-top: 20vw;
+
+  position: absolute;
+
+  width: 100vw;
+  height: 100vw;
+
+  top: 0px;
+  right: 0px;
+
+  // background-color: var(--background);
+
+  background-color: aqua;
+}
+
+/* Кнопка открытия меню */
 
 .header-menu-open-box {
   display: block;
@@ -11,41 +31,90 @@
 .header-menu-open-icon {
   display: block;
 
-  width: 5.75vw;
-  height: 5.75vw;
+  width: 5vw;
+  height: 5vw;
 
   cursor: pointer;
 
   fill: var(--icon);
+
+  &:hover,
+  :focus {
+    fill: var(--hover);
+  }
 }
 
-.header-menu {
+/* Кнопка закрытия */
+
+.header-menu-close-box {
   display: block;
   position: absolute;
 
-  width: 100vw;
-  height: 100vw;
-
-  top: 0px;
-  right: 0px;
-
-  background-color: var(--accent);
+  top: 8vw;
+  right: 5vw;
 }
+
+.header-menu-close-icon {
+  display: block;
+
+  width: 5vw;
+  height: 5vw;
+
+  cursor: pointer;
+
+  fill: var(--icon);
+
+  &:hover,
+  :focus {
+    fill: var(--hover);
+  }
+}
+
+/* Меню */
 
 .header-menu-box {
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
   align-items: center;
+
+  gap: 6.5vw;
 }
 
-// Навигация
+/* Навигация */
 
-//Сылки на социальные сети
+.header-menu-nav {
+  display: block;
+}
+
+.header-menu-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.5vw;
+}
+
+.header-menu-nav-item {
+}
+
+.header-menu-nav-link {
+  cursor: pointer;
+  color: var(--text);
+
+  &.accent {
+    color: var(--accent);
+  }
+
+  &:hover,
+  :focus {
+    color: var(--hover);
+  }
+}
+
+/* Сылки на социальные сети */
 
 .header-menu-social-list {
   display: flex;
-  gap: 40px;
+  gap: 3.2vw;
 }
 
 .header-menu-social-item {
@@ -69,11 +138,4 @@
   :focus {
     fill: var(--hover);
   }
-}
-
-.is-hidden {
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }

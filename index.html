@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AAA</title>
+    <title>Aleksandrov Architect</title>
     <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico" />
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
-      <div class="conteiner section">
+      <div class="conteiner section header-box">
         <!-- LOGO -->
         <div class="logo-box">
           <a class="logo-link" href="./index.html">
             <svg class="logo-icon">
-              <use href="./src/img/icons.svg#icon-logo"></use>
+              <use class="logo-icon-use" href="./src/img/icons.svg#icon-logo"></use>
             </svg>
           </a>
         </div>
@@ -27,24 +27,41 @@
       </div>
 
       <!-- MENU NAV MOB -->
-
       <div class="header-menu is-hidden" data-menu-js>
+        <!-- CLOSE MENU -->
+        <div class="header-menu-close-box" data-menu-close-js>
+          <svg class="header-menu-close-icon">
+            <use href="./src/img/icons.svg#icon-menu-close"></use>
+          </svg>
+        </div>
+        <!-- MENU -->
         <div class="header-menu-box">
           <!-- COMPANY LOGO -->
-          <div class="logo-box">
-            <a class="logo-link" href="./index.html">
-              <svg class="logo-icon">
-                <use href="./src/img/icons.svg#icon-company-logo"></use>
+          <div class="logo-company-box">
+            <a class="logo-company-link" href="./index.html">
+              <svg class="logo-company-icon">
+                <use
+                  class="logo-company-icon-use"
+                  href="./src/img/icons.svg#icon-company-logo"
+                ></use>
               </svg>
             </a>
           </div>
           <!-- NAVIGATION -->
-          <nav>
-            <ul>
-              <li><a href="#">О нас</a></li>
-              <li><a href="/index.html">Все проекты</a></li>
-              <li><a href="">Реализованые проекты</a></li>
-              <li><a href="">Контакты</a></li>
+          <nav class="header-menu-nav">
+            <ul class="header-menu-nav-list">
+              <li class="header-menu-nav-item">
+                <a class="header-menu-nav-link" href="#">Обо мне</a>
+              </li>
+              <li class="header-menu-nav-item">
+                <a class="header-menu-nav-link" href="/index.html">все проекты</a>
+              </li>
+              <li class="header-menu-nav-item">
+                <a class="header-menu-nav-link accent" href="">реализованные проекты</a>
+              </li>
+              <li class="header-menu-nav-item">
+                <a class="header-menu-nav-link" href="">контакты</a>
+              </li>
             </ul>
           </nav>
           <!-- SOCIAL -->
@@ -52,14 +69,14 @@
             <li class="header-menu-social-item">
               <a class="header-menu-social-link" href="">
                 <svg class="header-menu-social-icon">
-                  <use href="./src/img/icons.svg#icon-telegram"></use>
+                  <use href="./src/img/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="header-menu-social-item">
               <a class="header-menu-social-link" href="">
                 <svg class="header-menu-social-icon">
-                  <use href="./src/img/icons.svg#icon-instagram"></use>
+                  <use href="./src/img/icons.svg#icon-telegram"></use>
                 </svg>
               </a>
             </li>

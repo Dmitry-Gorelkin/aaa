@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "vite build --base=/aaa/",
+    "build": "vite build --base=/aleksandrov-arch/",
     "preview": "vite preview"
   },
   "devDependencies": {

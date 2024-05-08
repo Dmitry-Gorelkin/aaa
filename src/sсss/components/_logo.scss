@@ -1,18 +1,40 @@
 /* Логотип */
 .logo-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
 }
 
 .logo-link {
   display: inline-block;
+  cursor: unset;
 }
 
 .logo-icon {
   display: block;
+  cursor: pointer;
 
   height: 18vw;
 
   fill: var(--icon);
+}
+
+/* Фирменый Логотип */
+.logo-company-box {
+  display: block;
+}
+
+.logo-company-link {
+  display: inline-block;
+  cursor: unset;
+}
+
+.logo-company-icon {
+  display: block;
+
+  height: 4.2vw;
+
+  fill: var(--icon);
+}
+
+.logo-company-icon-use {
+  cursor: pointer;
 }

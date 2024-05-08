@@ -107,33 +107,3 @@
     color: var(--hover);
   }
 }
-
-/* Сылки на социальные сети */
-
-.header-menu-social-list {
-  display: flex;
-  gap: 3.2vw;
-}
-
-.header-menu-social-item {
-  display: block;
-}
-
-.header-menu-social-link {
-}
-
-.header-menu-social-icon {
-  display: block;
-
-  width: 5.75vw;
-  height: 5.75vw;
-
-  cursor: pointer;
-
-  fill: var(--icon);
-
-  &:hover,
-  :focus {
-    fill: var(--hover);
-  }
-}

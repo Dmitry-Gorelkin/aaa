@@ -1,0 +1,27 @@
+.social-menu-list {
+  display: flex;
+  gap: 3.2vw;
+}
+
+.social-menu-item {
+  display: block;
+}
+
+.social-menu-link {
+}
+
+.social-menu-icon {
+  display: block;
+
+  width: 5.75vw;
+  height: 5.75vw;
+
+  cursor: pointer;
+
+  fill: var(--icon);
+
+  &:hover,
+  :focus {
+    fill: var(--hover);
+  }
+}
